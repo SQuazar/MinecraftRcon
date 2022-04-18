@@ -11,7 +11,7 @@ class Example {
         Rcon rcon = new Rcon("127.0.0.1", 25575, "123");
         ConnectionResponse connectionResponse = rcon.connect();
         if (connectionResponse == ConnectionResponse.SUCCESS) {
-            rcon.sendCommand("Hello, World!");
+            rcon.sendCommand("say Hello, World!");
         }
     }
 }
