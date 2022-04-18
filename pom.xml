@@ -34,6 +34,7 @@
                             <mainClass>net.flawe.rcon.Main</mainClass>
                         </manifest>
                     </archive>
+                    <outputDirectory>jar</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
